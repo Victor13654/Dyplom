@@ -1,33 +1,35 @@
 {
-  "allowed_methods": "",
-  "battery_percentage": 66.0999984741211,
-  "battery_time_remaining": 31743,
-  "distance_to_next_target": 0.0,
-  "errors": [],
-  "footprint": "[[0.506,-0.32],[0.506,0.32],[-0.454,0.32],[-0.454,-0.32]]",
-  "map_id": "afe9cdc0-a492-11e9-a743-94c6911e79e1",
-  "mission_queue_id": "",
-  "mission_queue_url": "",
-  "mission_text": "Starting...",
-  "mode_id": 7,
-  "mode_text": "Mission",
-  "moved": 16930.19,
-  "position": {
-    "orientation": -176.66061401367188,
-    "x": 12.428234100341797,
-    "y": 13.127839088439941
+  "allowed_methods":"",
+  "battery_percentage":66.0999984741211,
+  "battery_time_remaining":31743,
+  "distance_to_next_target":0.0,
+  "errors":[
+
+  ],
+  "footprint":"[[0.506,-0.32],[0.506,0.32],[-0.454,0.32],[-0.454,-0.32]]",
+  "map_id":"afe9cdc0-a492-11e9-a743-94c6911e79e1",
+  "mission_queue_id":"",
+  "mission_queue_url":"",
+  "mission_text":"Starting...",
+  "mode_id":7,
+  "mode_text":"Mission",
+  "moved":16930.19,
+  "position":{
+    "orientation":-176.66061401367188,
+    "x":12.428234100341797,
+    "y":13.127839088439941
   },
-  "robot_model": "MiR100",
-  "robot_name": "MiR_R880",
-  "serial_number": "180100002100880",
-  "session_id": "200f551a-d37c-11e8-b79c-94c6911e79e1",
-  "state_id": 4,
-  "state_text": "Pause",
-  "unloaded_map_changes": "",
-  "uptime": 1134,
-  "user_prompt": "",
-  "velocity": {
-    "angular": 0.0,
-    "linear": 0.0
+  "robot_model":"MiR100",
+  "robot_name":"MiR_R880",
+  "serial_number":"180100002100880",
+  "session_id":"200f551a-d37c-11e8-b79c-94c6911e79e1",
+  "state_id":4,
+  "state_text":"Pause",
+  "unloaded_map_changes":"",
+  "uptime":1134,
+  "user_prompt":"",
+  "velocity":{
+    "angular":0.0,
+    "linear":0.0
   }
 }

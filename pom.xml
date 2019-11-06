@@ -169,7 +169,7 @@
                 <artifactId>jsonschema2pojo-maven-plugin</artifactId>
                 <version>1.0.1</version>
                 <configuration>
-                    <sourceDirectory>src/main/resources</sourceDirectory>
+                    <sourceDirectory>src/main/resources/data.json</sourceDirectory>
                     <targetPackage>com.example.types</targetPackage>
                     <sourceType>json</sourceType>
                     <generateBuilders>true</generateBuilders>
