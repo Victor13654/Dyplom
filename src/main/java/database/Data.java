@@ -4,16 +4,20 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.annotation.Resource;
+import javax.persistence.*;
 
 @Getter
 @Setter
 @Entity
-@Table(name = "data")
+@Table(name = "DATA")
 public class Data {
     @Id
-    private Long id;
+    private String id;
+
+    @Column
+    private Double batteryPercentage;
+
+
 }
 

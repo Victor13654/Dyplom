@@ -8,7 +8,9 @@ public class RestClientTest {
 
     @Test
     public void getJsonEmployee1() {
-        Data data = new RestClient().getJsonEmployee();
-        System.out.println(data.getBatteryPercentage());
+        RestClientMir restClient = new RestClientMir();
+        Data data = restClient.getJsonEmployee();
+        System.out.println(restClient.getJsonEmployee().getBatteryPercentage());
+        //restClient.getJsonEmployee();
     }
 }

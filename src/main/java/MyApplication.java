@@ -14,7 +14,7 @@ public class MyApplication extends Application {
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
         h.add( HelloWorld.class );
-        h.add(ResponseMock.class);
+        h.add( ResponseMock.class);
         return h;
     }
 }

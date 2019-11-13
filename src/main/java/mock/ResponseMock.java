@@ -13,7 +13,7 @@ public class ResponseMock {
     public Response returnJson(){
         Data data = new Data();
         data.setBatteryPercentage(10.0);
-        data.setRobotModel("Sobaka");
+        data.setRobotModel("MIR");
         return Response.status(200).entity(data).build();
     }
 }
