@@ -1,29 +1,20 @@
-package database;
 
+package dto;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
 
-
-import javax.persistence.*;
-
 @Getter
 @Setter
-@Entity
-@Table(name = "DATA")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Data {
-    @Id
-    private String id;
 
-    @Column
     private Double batteryPercentage;
-    @Column
     private String robotModel;
-    @Column
-    private Double linearVelocity;
-    @Column
+    private Velocity velocity;
     private Integer batteryTimeRemaining;
-    @Column
     private Double distanceToNextTarget;
 
-}
 
+}

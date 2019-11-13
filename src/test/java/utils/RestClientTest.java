@@ -1,7 +1,8 @@
 package utils;
 
-import com.example.types.Data;
+import dto.Data;
 import org.junit.Test;
+import restServices.RestClientMir;
 
 public class RestClientTest {
 
